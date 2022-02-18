@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react";
 import { Box, Text, Flex, Button } from "@chakra-ui/react";
 import { mintAnimalTokenContract } from "../web3Config";
-// import AnimalCard from "../components/AnimalCard";
+import AnimalCard from "../components/AnimalCard";
 
 interface MainProps {
   account: string;
@@ -17,6 +17,8 @@ const Main: FC<MainProps> = ({ account }) => {
       const response = await mintAnimalTokenContract.methods
         .mintAnimalToken()
         .send({ from: account });
+
+        console.log(response);
 
       if (response.status) {
         const balanceLength = await mintAnimalTokenContract.methods
@@ -47,12 +49,11 @@ const Main: FC<MainProps> = ({ account }) => {
       direction="column"
     >
       <Box>
-        {/* {newAnimalType ? (
+        {newAnimalType ? (
           <AnimalCard animalType={newAnimalType} />
         ) : (
           <Text>Let's mint Animal Card!!!</Text>
-        )} */}
-        <Text>Let's mint Animal Card!!!</Text>
+        )}
       </Box>
       <Button mt={4} size="sm" colorScheme="blue" onClick={onClickMint}>
         Mint
