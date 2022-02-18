@@ -466,7 +466,11 @@
 	},
 	"settings": {
 		"compilationTarget": {
+<<<<<<< HEAD
 			"MintAnimalToken.sol": "MintAnimalToken"
+=======
+			"contracts/MintAnimalToken.sol": "MintAnimalToken"
+>>>>>>> a1cd87186a1182b47922697905d3ae21f84a45cf
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -568,7 +572,11 @@
 				"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy"
 			]
 		},
+<<<<<<< HEAD
 		"MintAnimalToken.sol": {
+=======
+		"contracts/MintAnimalToken.sol": {
+>>>>>>> a1cd87186a1182b47922697905d3ae21f84a45cf
 			"keccak256": "0x88ad08031601702fe159c5e8c3008e46472797df81fa571fffc4d1fbfd247c52",
 			"license": "MIT",
 			"urls": [

@@ -2,7 +2,11 @@
 
 pragma solidity ^0.8.0;
 
+<<<<<<< HEAD
 import "mintAnimalToken.sol";
+=======
+import "./mintAnimalToken.sol";
+>>>>>>> a1cd87186a1182b47922697905d3ae21f84a45cf
 
 contract SaleAnimalToken {
     MintAnimalToken public mintAnimalTokenAddress;

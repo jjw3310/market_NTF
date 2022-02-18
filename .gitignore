@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+./history
+=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,3 +24,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+>>>>>>> 36e2f2bed2896f23b7957a41febecf066ca6f920
