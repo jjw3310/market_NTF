@@ -466,11 +466,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-<<<<<<< HEAD
-			"MintAnimalToken.sol": "MintAnimalToken"
-=======
 			"contracts/MintAnimalToken.sol": "MintAnimalToken"
->>>>>>> a1cd87186a1182b47922697905d3ae21f84a45cf
 		},
 		"evmVersion": "london",
 		"libraries": {},
